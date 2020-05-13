@@ -1,4 +1,7 @@
+/* программа является учебной */
+
 #include <stdio.h>
+#include "sdt.h"
 
 int main(){
 
