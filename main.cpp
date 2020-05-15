@@ -5,7 +5,7 @@
 
 int main(){
 
-    int x1, x2, sum, prod;
+    int x1, x2;
 
     printf("Input 1st integer number: ");
     scanf("%d", &x1);
@@ -16,6 +16,7 @@ int main(){
     printf("\nThe summa of 2 numbers = %d", x1+x2);
 
     printf("\nThe production of 2 numbers = %d", x1*x2);
+    printf("\nThe division of 2 numbers = %f", x1/float(x2));
 
     getchar();
     getchar();
